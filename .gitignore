@@ -1,0 +1,35 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Vite
+/dist/
+/.vite/
+/build/
+
+# Local env files
+.env
+.env.*.local
+.env.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Lock files
+package-lock.json
+
+# Optional: include .env.example in repo, but ignore real envs
+.env.production
+.env.development
+
+# End of .gitignore
