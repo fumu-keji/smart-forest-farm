@@ -1,0 +1,64 @@
+// 页面加载的样式
+.pageLoading {
+  z-index: 1000000000000 !important;
+  .el-loading-spinner {
+    padding: 15px 20px;
+    width: 140px;
+    height: 130px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    background-image: url(/src/assets/image/pageLoading.gif);
+    background-size: 100% 90%;
+    .circular {
+      display: none !important;
+    }
+    .el-loading-text {
+      position: relative;
+      top: 100px;
+      display: block;
+      font-size: 15px;
+      color: #afb7c3;
+    }
+  }
+}
+// 顶部导航的弹层样式
+.menu-popper {
+  border: none !important;
+}
+// 折叠面板的通用样式
+.operate-collapse {
+  &.el-collapse {
+    border: none;
+  }
+  .el-collapse-item__content {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    .el-empty {
+      padding: 20px 0;
+    }
+  }
+  .el-collapse-item__header {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    border-bottom: none;
+    box-shadow: 0px 0px 5px 0px rgba(41, 49, 94, 0.1);
+    opacity: 1;
+    font-size: 16px;
+    font-weight: bolder;
+    transition: none;
+    transform: translate3d(0, 0, 0);
+    .el-collapse-item__arrow {
+      position: relative;
+      top: -2px;
+      color: #1778ff;
+      font-size: 20px !important;
+    }
+  }
+  .el-collapse-item__wrap {
+    border-bottom: none;
+  }
+}

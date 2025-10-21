@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="" type="image/x-icon">
+  <title>智慧林场/森林防火指挥系统大屏</title>
+</head>
+<body>
+  <noscript>
+    <strong>We're sorry but 智慧林场/森林防火指挥系统大屏 doesn't work properly without JavaScript enabled.
+      Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+<style>
+.remove-tab {
+  display: none;
+}
+</style>
+<script>
+  // 暂时处理tab被键盘顶起的问题。初始化时由于body.clientHeight为0，所以赋最大值
+  let height = 9999;
+  window.addEventListener('resize', () => {
+    let tabbarElements = document.getElementsByClassName("app-bottom-menu van-hairline--top-bottom van-tabbar van-tabbar--fixed");
+    if(tabbarElements.length>0){
+      if (document.body.clientHeight < height && tabbarElements[0].classList) {
+        tabbarElements[0].classList.add("remove-tab")
+      } else {
+        tabbarElements[0].classList.remove("remove-tab")
+      }
+    }
+    height = document.body.clientHeight;
+  })
+</script>
+</html>

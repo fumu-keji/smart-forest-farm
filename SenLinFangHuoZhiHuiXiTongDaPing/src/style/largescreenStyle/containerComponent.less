@@ -1,0 +1,232 @@
+.large-skeleton-container {
+  // 弹窗相关样式
+  .el-dialog.dialog-render-box,
+  .el-dialog.web-tool-tip-dialog {
+    background-color: @popperBackgroundColor !important;
+    .el-dialog__header {
+      border-color: @normalColor;
+    }
+    .el-dialog__title {
+      color: @fontColor;
+    }
+    .el-dialog__close {
+      color: @fontColor;
+      &:hover {
+        color: @activeFontColor;
+      }
+    }
+    .el-dialog__footer {
+      border-color: @normalColor;
+    }
+  }
+  // 弹窗相关样式
+  &.el-dialog.dialog-render-box,
+  &.el-dialog.web-tool-tip-dialog {
+    background-color: @popperBackgroundColor !important;
+    .el-dialog__header {
+      border-color: @normalColor;
+    }
+    .el-dialog__title {
+      color: @fontColor;
+    }
+    .el-dialog__close {
+      color: @fontColor;
+      &:hover {
+        color: @activeFontColor;
+      }
+    }
+    .el-dialog__footer {
+      border-color: @normalColor;
+    }
+  }
+  // 标签页相关样式
+  .tabs-render-box {
+    background-color: transparent;
+    &.default-tabs {
+      border: 1px solid @normalColor;
+      .el-tabs__active-bar {
+        background-color: @activeColor !important;
+      }
+      .el-tabs__nav-wrap::after {
+        background-color: @normalColor;
+      }
+      &.el-tabs--left {
+        .el-tabs__header {
+          border-right: 1px solid @normalColor;
+        }
+      }
+      &.el-tabs--right {
+        .el-tabs__header {
+          border-left: 1px solid @normalColor;
+        }
+      }
+      .el-tabs__item {
+        padding: 0px !important;
+        margin: 0 20px;
+        color: @fontColor !important;
+        &.is-active {
+          color: @activeFontColor !important;
+        }
+      }
+    }
+    &.el-tabs--card {
+      .el-tabs__nav {
+        border: 1px solid @normalColor !important;
+        border-bottom: none !important;
+      }
+      .el-tabs__header {
+        border-bottom: 1px solid @normalColor !important;
+        .el-tabs__item {
+          border-left: 1px solid @normalColor !important;
+          color: @fontColor !important;
+          &.is-active {
+            border-bottom: none !important;
+            color: @activeFontColor !important;
+          }
+          &:first-child {
+            border-left: none !important;
+          }
+        }
+      }
+      .el-tabs__content {
+        border: 1px solid @normalColor !important;
+        border-top: none !important;
+      }
+    }
+    &.el-tabs--left.el-tabs--card {
+      .el-tabs__nav {
+        border: 1px solid @normalColor !important;
+        border-right: none !important;
+      }
+      .el-tabs__header {
+        border: none !important;
+        .el-tabs__item {
+          border-left: none !important;
+          border-top: 1px solid @normalColor;
+          &:first-child {
+            border-top: none !important;
+          }
+          &.is-left {
+            border-right: 1px solid @normalColor;
+          }
+        }
+      }
+      .el-tabs__content {
+        border: 1px solid @normalColor !important;
+      }
+    }
+    &.el-tabs--right.el-tabs--card {
+      .el-tabs__nav {
+        border-bottom: 1px solid @normalColor !important;
+        border-left: none !important;
+      }
+      .el-tabs__header {
+        border: none !important;
+        .el-tabs__item {
+          border-left: none !important;
+          border-top: 1px solid @normalColor;
+          &:first-child {
+            border-top: none !important;
+          }
+        }
+      }
+      .el-tabs__content {
+        border: 1px solid @normalColor !important;
+      }
+    }
+    &.el-tabs--border-card {
+      background-color: @popperBackgroundColor;
+      border: 1px solid @normalColor;
+      .el-tabs__header {
+        background-color: @popperBackgroundColor;
+        border-bottom: 1px solid @normalColor;
+        &.is-right {
+          border-bottom: none;
+          border-left: 1px solid @normalColor;
+        }
+        &.is-left {
+          border-bottom: none;
+          border-right: 1px solid @normalColor;
+        }
+      }
+      .el-tabs__item {
+        color: @fontColor !important;
+        border: none;
+        &.is-active {
+          background-color: @popperBackgroundColor;
+          color: @activeColor !important;
+          border: none;
+        }
+      }
+    }
+  }
+  // 描述列表样式
+  .el-descriptions {
+    .el-descriptions__body {
+      background-color: @popperBackgroundColor;
+      .el-descriptions__cell {
+        border-color: @normalColor;
+        background-color: @popperBackgroundColor;
+      }
+    }
+  }
+  // 抽屉样式
+  .el-drawer.drawer-render-box {
+    background-color: @popperBackgroundColor !important;
+    .drawer-title {
+      border-color: @fontColor;
+      .text {
+        color: @fontColor;
+        border-color: @normalColor;
+      }
+    }
+  }
+  &.el-drawer.drawer-render-box {
+    background-color: @popperBackgroundColor !important;
+    .drawer-title {
+      border-color: @fontColor;
+      .text {
+        color: @fontColor;
+        border-color: @normalColor;
+      }
+    }
+  }
+  // 折叠面板样式
+  .el-collapse {
+    border-color: @normalColor;
+    .el-collapse-item__header {
+      background-color: transparent;
+      border-color: @normalColor;
+      .collapse-item-title {
+        color: @fontColor !important;
+      }
+      .el-collapse-item__arrow {
+        color: @fontColor;
+      }
+    }
+    .el-collapse-item__wrap {
+      border-color: @normalColor;
+      background-color: transparent;
+      .el-collapse-item__content {
+        background-color: transparent;
+      }
+    }
+  }
+  // 卡片样式
+  .web-render-drag.card-render-box.el-card {
+    background-color: transparent !important;
+    border-color: @normalColor;
+    .el-card__header {
+      border-color: @normalColor;
+      .text {
+        border-color: @normalColor;
+      }
+    }
+  }
+  // 卡片列表样式
+  .card-list-reader-box {
+    .card-list-item {
+      background-color: transparent !important;
+    }
+  }
+}

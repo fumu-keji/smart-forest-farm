@@ -1,0 +1,7 @@
+src/libs/**/*
+src/assets/*
+src/components/singleComponent/*
+src/config/*
+src/plugins/*
+src/router/*
+src/*

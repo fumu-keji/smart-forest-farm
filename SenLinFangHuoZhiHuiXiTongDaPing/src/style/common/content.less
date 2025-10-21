@@ -1,0 +1,314 @@
+// 主区域只有一栏
+.data-box {
+  min-width: 1300px;
+  height: 100%;
+  padding: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+// 主区域有两栏
+.menu-data-box {
+  height: 100%;
+  padding: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: flex;
+
+  .data-box {
+    min-width: 1000px;
+    width: calc(100% - 300px);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+}
+
+.operate-button-box {
+  width: 100%;
+  padding: 0 0 20px;
+  box-sizing: border-box;
+}
+
+.search-box {
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+
+  .search-button-box {
+    display: inline-flex;
+    position: relative;
+    top: -1px;
+  }
+}
+
+.table-box {
+  padding-top: 20px;
+  box-sizing: border-box;
+
+  &.no-buton-table {
+    padding-top: 0;
+  }
+
+  .el-table thead th.el-table__cell {
+    background-color: #fafafa;
+    color: #333333;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+  .el-table__body td.el-table__cell {
+    padding: 12px 0;
+  }
+
+  .el-table tbody td {
+    font-size: 14px;
+    color: #666666;
+  }
+
+  .operate-table-box {
+    .el-button {
+      font-size: 14px;
+      color: #147cff;
+      text-decoration: underline;
+
+      &.el-button--text {
+        padding: 0;
+      }
+    }
+  }
+
+  .el-pagination {
+    margin: 15px 0 0;
+
+    .el-select__wrapper {
+      width: 120px;
+      height: 30px;
+      min-height: 30px;
+      font-size: 13px;
+    }
+
+    .btn-prev {
+      margin-left: 10px;
+    }
+
+    .btn-prev,
+    .btn-next {
+      min-width: 28px;
+      height: 28px;
+      padding: 0;
+
+      .el-icon {
+        font-size: 14px;
+      }
+    }
+
+    .el-pagination__jump {
+      margin-left: 10px;
+    }
+
+    .el-pager li {
+      min-width: 28px;
+      height: 28px;
+      line-height: 25px;
+      font-size: 13px;
+    }
+
+    .el-pagination__goto {
+      font-size: 14px;
+    }
+
+    .el-pagination__classifier {
+      position: relative;
+      top: 1px;
+      font-size: 14px;
+    }
+
+    .el-input {
+      position: relative;
+      top: 1px;
+      width: 40px;
+      height: 30px;
+      font-size: 13px;
+    }
+
+    .el-pagination__total {
+      position: relative;
+      top: 1px;
+      font-size: 14px;
+    }
+  }
+}
+
+.menu-box {
+  width: 300px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-right: 1px solid #e7e7eb;
+  flex-shrink: 0;
+
+  .container-title {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e7e7eb;
+    font-size: 15px;
+    color: #1d252f;
+    font-weight: bolder;
+
+    .border-span {
+      display: inline-block;
+      position: relative;
+      top: 5px;
+      height: 20px;
+      margin-right: 5px;
+      border-left: 4px solid #1778ff;
+    }
+  }
+
+  .container-content {
+    height: calc(100% - 56px);
+    overflow-y: auto;
+  }
+
+  .base-input-tyle {
+    margin-bottom: 20px;
+  }
+}
+
+// 站位层
+.block-box {
+  background-color: #F7F7FB;
+  width: 100%;
+  height: 10px;
+}
+
+.no-operate-search-box {
+  height: calc(100% - 68px) !important;
+}
+
+.select-icon-box {
+  .el-select-dropdown__wrap {
+    max-width: 528px;
+  }
+
+  .select-icon-item {
+    display: inline-block;
+    width: 22px;
+    height: 26px;
+    font-size: 22px;
+  }
+
+  .el-select-dropdown__list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 6px 0 6px 8px;
+    box-sizing: border-box;
+  }
+
+  .el-select-dropdown__item {
+    padding: 5px 10px;
+    line-height: 30px;
+
+    &.selected {
+      font-weight: normal !important;
+    }
+  }
+}
+
+// 操作树相关样式
+.operate-tree {
+  .el-tree-node__content {
+    height: 35px;
+    font-size: 14px;
+
+    .group-tree-node {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      line-height: 35px;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between
+    }
+  }
+
+  .el-tree-node.is-current>.el-tree-node__content {
+    background: rgba(22, 119, 255, 0.1);
+    color: #187aff;
+  }
+
+  .is-leaf {
+    // margin-right: 0px !important;
+    color: transparent !important;
+    cursor: default
+  }
+
+  .tree-node-icon {
+    position: absolute;
+    margin-right: 7px;
+    font-size: 16px;
+  }
+
+  .fmy-tree-folder {
+    color: #f2c64e;
+  }
+
+  .fmy-tree-file {
+    color: #7E7F85;
+  }
+
+  .tree-node-name {
+    display: inline-block;
+    width: 190px;
+    height: 100%;
+    font-size: 15px;
+    padding-left: 28px;
+    line-height: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+  }
+
+  .el-dropdown {
+    width: 23px;
+  }
+
+  .operate-box {
+    position: relative;
+    top: 1px;
+    width: 20px;
+
+    i {
+      font-size: 17px;
+      color: #7E7F85;
+    }
+  }
+
+  .el-tree-node__expand-icon {
+    color: #1778ff;
+    padding: 5px;
+    position: relative;
+    top: -2px;
+    font-size: 16px;
+  }
+}
+
+.info-dialog-content {
+  .el-form-item {
+    .el-input__wrapper {
+      background-color: #f0f2f5;
+    }
+
+    .el-textarea__inner {
+      background-color: #f0f2f5;
+    }
+  }
+}

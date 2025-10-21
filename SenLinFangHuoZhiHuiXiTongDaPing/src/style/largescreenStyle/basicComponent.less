@@ -1,0 +1,238 @@
+.large-skeleton-container {
+  // 按钮相关配置
+  .el-button {
+    background-color: @popperBackgroundColor;
+    border-color: @normalColor;
+    color: @fontColor;
+    &:hover,
+    &:focus {
+      background-color: @hoverBackgroundColor !important;
+      border-color: @activeColor !important;
+      color: @activeFontColor !important;
+    }
+    &.el-button--text {
+      background-color: transparent;
+      border-color: transparent;
+      &:hover,
+      &:focus {
+        background-color: none;
+        border-color: transparent;
+        color: @activeFontColor;
+      }
+    }
+  }
+  // 表格相关样式
+  .el-table {
+    background-color: @popperBackgroundColor;
+    .el-table__body-wrapper::-webkit-scrollbar {
+      width: 6px !important;
+      height: 6px !important;
+      background-color: transparent;
+      border-radius: 6px;
+    }
+    // 滑块
+    .el-table__body-wrapper::-webkit-scrollbar-thumb {
+      background-color: @normalColor;
+      border-radius: 5px;
+    }
+    .el-table__body-wrapper::-webkit-scrollbar-thumb:hover {
+      background-color: @normalColor;
+    }
+    // 滑道
+    .el-table__body-wrapper::-webkit-scrollbar-track {
+      border-radius: 0px;
+    }
+    thead th.el-table__cell {
+      background-color: @tableThBackgroundColor !important;
+      color: @tableThFontColor;
+      border-color: @normalColor !important;
+    }
+    .el-table__body td.el-table__cell {
+      border-color: @normalColor !important;
+      color: @tableTdFontColor;
+      transition: none;
+      background-color: transparent !important;
+    }
+    .el-table__row {
+      background-color: transparent;
+      &:hover {
+        .el-table__cell {
+          background-color: @hoverBackgroundColor !important;
+          color: @activeFontColor;
+        }
+        .el-progress__text {
+          color: @activeFontColor;
+        }
+      }
+      &.hover-row {
+        .el-table__cell {
+          background-color: @hoverBackgroundColor !important;
+          color: @activeFontColor;
+        }
+        .el-progress__text {
+          color: @activeFontColor;
+        }
+      }
+      &.current-row {
+        .el-table__cell {
+          background-color: @hoverBackgroundColor !important;
+          color: @activeFontColor;
+        }
+        .el-progress__text {
+          color: @activeFontColor;
+        }
+      }
+    }
+    .el-table__fixed-right {
+      background-color: @popperBackgroundColor;
+    }
+    .table-file-style {
+      i {
+        color: @tableThFontColor !important;
+        &:hover {
+          color: @activeFontColor !important;
+        }
+      }
+    }
+    .el-progress__text {
+      color: @tableThFontColor;
+    }
+    .el-table__border-left-patch {
+      background-color: @normalColor;
+    }
+  }
+  .el-table::before {
+    height: 1px;
+    background-color: @normalColor;
+  }
+  .el-table__fixed-right-patch {
+    background-color: transparent !important;
+  }
+  .el-table__fixed-right::before,
+  .el-table__fixed::before {
+    height: 0;
+  }
+  .el-table .el-table__fixed-body-wrapper .el-table__fixed-body .el-table__row:hover {
+    background-color: none;
+    /* 或者设置为你想要的样式 */
+    transition: none;
+  }
+  .el-table--border::after, .el-table--border::before, .el-table--border .el-table__inner-wrapper::after, .el-table__inner-wrapper::before {
+    background-color: transparent;
+  }
+  .el-pagination {
+    color: @fontColor;
+    .el-pagination__total,
+    .el-pagination__jump {
+      color: @fontColor;
+    }
+    .btn-prev,
+    .btn-next {
+      background-color: transparent !important;
+      border: 1px solid @normalColor !important;
+      &:hover {
+        border-color: @activeColor !important;
+      }
+      .el-icon {
+        color: @activeFontColor !important;
+      }
+    }
+    .el-pager {
+      li {
+        color: @popperNormalFontColor !important;
+        &:hover,
+        &.active {
+          background-color: @popperFocusBackgroundColor !important;
+        }
+      }
+    }
+  }
+  // 动态表单、一对多组件样式
+  .dynamic-form-box,
+  .oneToMany-form-box {
+    background-color: transparent;
+  }
+  // 标签样式
+  .el-tag {
+    border: none !important;
+  }
+  // 标记样式
+  .el-badge .el-badge__content {
+    border: none !important;
+  }
+  // 头像样式
+  .el-avatar {
+    background-color: transparent;
+    border-color: @normalColor;
+
+    i {
+      color: @fontColor;
+    }
+  }
+  // 步骤条样式
+  .el-steps {
+    background-color: transparent;
+    .el-step__head {
+      .el-step__icon {
+        border-color: @fontColor !important;
+        color: @fontColor !important;
+        background-color: @popperBackgroundColor;
+      }
+      &.is-process {
+        .el-step__icon {
+          border-color: @activeFontColor !important;
+          color: @activeFontColor !important;
+          background-color: @popperBackgroundColor;
+        }
+      }
+    }
+    .el-step__line {
+      background-color: @normalColor;
+    }
+    .el-step__title {
+      color: @fontColor;
+      &.is-process {
+        color: @activeFontColor ;
+      }
+    }
+    .el-step__arrow::before {
+      background: @fontColor !important;
+    }
+    .el-step__arrow::after {
+      background: @fontColor !important;
+    }
+  }
+  // 日历
+  .calendar-render-box {
+    .el-calendar {
+      background-color: transparent;
+      .el-calendar__header {
+        border-color: @normalColor;
+      }
+      .el-calendar__body {
+        .el-calendar-table {
+          th {
+            color: var(--dateColor);
+          }
+          .el-calendar-day {
+            border-color: @normalColor;
+            &:hover {
+              background-color: @hoverBackgroundColor;
+            }
+          }
+          .is-selected {
+            .el-calendar-day {
+              background-color: @hoverBackgroundColor !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  // 空状态
+  .el-empty {
+    .el-empty__description p {
+      color: @fontColor;
+    }
+  }
+}

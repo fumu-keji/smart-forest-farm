@@ -1,0 +1,87 @@
+html,
+body,
+#app {
+  background: #fff;
+  color: #5e5e5e;
+  font-family: Microsoft YaHei;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  font-size: 14px;
+}
+body,
+ul,
+ol,
+dl,
+li,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+  font-family: "Microsoft YaHei";
+}
+img {
+  border: none;
+  image-rendering: -webkit-optimize-contrast;
+}
+input,
+button,
+textarea,
+select {
+  font-size: 100%;
+  border: none;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+.clear_fix {
+  overflow: hidden;
+}
+::marker {
+  font-size: 0;
+}
+.cursors {
+  cursor: pointer;
+}
+.disabled-click {
+  pointer-events: none;
+}
+// 滚动条样式
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  transition: all .2s ease-in-out;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0003;
+  border-radius: 10px;
+  transition: all .2s ease-in-out;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+[class^="fmy-"],
+[class*="fmy-"] {
+  font-family: "fmy-simple-basic";
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

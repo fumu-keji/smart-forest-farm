@@ -1,0 +1,429 @@
+@font-face {
+  font-family: "menu";
+  /* Project id 4314138 */
+  src: url('iconfont.woff2?t=1701829665762') format('woff2'),
+    url('iconfont.woff?t=1701829665762') format('woff'),
+    url('iconfont.ttf?t=1701829665762') format('truetype');
+}
+
+.menu {
+  font-family: "menu" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-display: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="menu-"],
+[class*="menu-"] {
+  font-family: "menu";
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.menu-templateMall:before {
+  content: "\e600";
+}
+
+.menu-menuManage:before {
+  content: "\e601";
+}
+
+.menu-userManage:before {
+  content: "\e602";
+}
+
+.menu-applicationPublish:before {
+  content: "\e603";
+}
+
+.menu-roleManage:before {
+  content: "\e604";
+}
+
+.menu-dictionaryManage:before {
+  content: "\e605";
+}
+
+.menu-groupManage:before {
+  content: "\e606";
+}
+
+.menu-logManage:before {
+  content: "\e607";
+}
+
+.menu-team:before {
+  content: "\e6a8";
+}
+
+.menu-key:before {
+  content: "\e6d7";
+}
+
+.menu-application:before {
+  content: "\e6d9";
+}
+
+.menu-data:before {
+  content: "\e6da";
+}
+
+.menu-answer:before {
+  content: "\e6db";
+}
+
+.menu-board:before {
+  content: "\e6dc";
+}
+
+.menu-build:before {
+  content: "\e6dd";
+}
+
+.menu-aiCloud:before {
+  content: "\e6de";
+}
+
+.menu-character:before {
+  content: "\e6df";
+}
+
+.menu-association:before {
+  content: "\e6e0";
+}
+
+.menu-calculator:before {
+  content: "\e6e1";
+}
+
+.menu-access:before {
+  content: "\e6e2";
+}
+
+.menu-database:before {
+  content: "\e6e3";
+}
+
+.menu-cloud:before {
+  content: "\e6e4";
+}
+
+.menu-bankCard:before {
+  content: "\e6e5";
+}
+
+.menu-bookmark:before {
+  content: "\e6e6";
+}
+
+.menu-company:before {
+  content: "\e6ea";
+}
+
+.menu-briefcase:before {
+  content: "\e6eb";
+}
+
+.menu-collaborativeOffice:before {
+  content: "\e6ec";
+}
+
+.menu-interface:before {
+  content: "\e6ed";
+}
+
+.menu-atlas:before {
+  content: "\e6ee";
+}
+
+.menu-cloudData:before {
+  content: "\e6ef";
+}
+
+.menu-customer:before {
+  content: "\e6f0";
+}
+
+.menu-dataSet:before {
+  content: "\e6f1";
+}
+
+.menu-connect:before {
+  content: "\e6f2";
+}
+
+.menu-camera:before {
+  content: "\e6f3";
+}
+
+.menu-dataSource:before {
+  content: "\e6f4";
+}
+
+.menu-powerSupply:before {
+  content: "\e6f5";
+}
+
+.menu-measure:before {
+  content: "\e6f6";
+}
+
+.menu-comment:before {
+  content: "\e6f7";
+}
+
+.menu-dataBoard:before {
+  content: "\e6f8";
+}
+
+.menu-compass:before {
+  content: "\e6f9";
+}
+
+.menu-materialLibrary:before {
+  content: "\e6fa";
+}
+
+.menu-heart:before {
+  content: "\e6fc";
+}
+
+.menu-customFields:before {
+  content: "\e6fd";
+}
+
+.menu-luggage:before {
+  content: "\e6fe";
+}
+
+.menu-memory:before {
+  content: "\e6ff";
+}
+
+.menu-folder:before {
+  content: "\e700";
+}
+
+.menu-level:before {
+  content: "\e701";
+}
+
+.menu-histogram:before {
+  content: "\e702";
+}
+
+.menu-internet:before {
+  content: "\e703";
+}
+
+.menu-maintenance:before {
+  content: "\e704";
+}
+
+.menu-orderForGoods:before {
+  content: "\e705";
+}
+
+.menu-fileCloud:before {
+  content: "\e706";
+}
+
+.menu-dataDisplay:before {
+  content: "\e707";
+}
+
+.menu-manage:before {
+  content: "\e708";
+}
+
+.menu-seal:before {
+  content: "\e70a";
+}
+
+.menu-dataCenter:before {
+  content: "\e70b";
+}
+
+.menu-operation:before {
+  content: "\e70d";
+}
+
+.menu-mailBox:before {
+  content: "\e70e";
+}
+
+.menu-shopping:before {
+  content: "\e710";
+}
+
+.menu-online:before {
+  content: "\e712";
+}
+
+.menu-print:before {
+  content: "\e713";
+}
+
+.menu-graphical:before {
+  content: "\e714";
+}
+
+.menu-remind:before {
+  content: "\e715";
+}
+
+.menu-secure:before {
+  content: "\e717";
+}
+
+.menu-picture:before {
+  content: "\e718";
+}
+
+.menu-replace:before {
+  content: "\e719";
+}
+
+.menu-goodsTrain:before {
+  content: "\e71c";
+}
+
+.menu-textWriter:before {
+  content: "\e71e";
+}
+
+.menu-hostName:before {
+  content: "\e71f";
+}
+
+.menu-flowPath:before {
+  content: "\e720";
+}
+
+.menu-storage:before {
+  content: "\e721";
+}
+
+.menu-hardWare:before {
+  content: "\e722";
+}
+
+.menu-tasksShow:before {
+  content: "\e723";
+}
+
+.menu-circulate:before {
+  content: "\e724";
+}
+
+.menu-shoppingMal:before {
+  content: "\e727";
+}
+
+.menu-orderDetails:before {
+  content: "\e728";
+}
+
+.menu-robot:before {
+  content: "\e72b";
+}
+
+.menu-phoneBook:before {
+  content: "\e72c";
+}
+
+.menu-umbrella:before {
+  content: "\e72d";
+}
+
+.menu-setup:before {
+  content: "\e72f";
+}
+
+.menu-tabulation:before {
+  content: "\e731";
+}
+
+.menu-systemSettings:before {
+  content: "\e732";
+}
+
+.menu-target:before {
+  content: "\e733";
+}
+
+.menu-textBook:before {
+  content: "\e735";
+}
+
+.menu-share:before {
+  content: "\e736";
+}
+
+.menu-layout:before {
+  content: "\e737";
+}
+
+.menu-hardDisk:before {
+  content: "\e738";
+}
+
+.menu-home:before {
+  content: "\e739";
+}
+
+.menu-wallet:before {
+  content: "\e73a";
+}
+
+.menu-localization:before {
+  content: "\e73b";
+}
+
+.menu-systemMenu:before {
+  content: "\e73c";
+}
+
+.menu-user:before {
+  content: "\e73e";
+}
+
+.menu-trophy:before {
+  content: "\e73f";
+}
+
+.menu-weight:before {
+  content: "\e740";
+}
+
+.menu-renew:before {
+  content: "\e741";
+}
+
+.menu-photograph:before {
+  content: "\e743";
+}
+
+.menu-rocket:before {
+  content: "\e744";
+}
+
+.menu-medal:before {
+  content: "\e745";
+}
+
+.menu-manual:before {
+  content: "\e746";
+}
+
+.menu-phoneCall:before {
+  content: "\e747";
+}
+
+.menu-workSheet:before {
+  content: "\e748";
+}
