@@ -35,6 +35,7 @@ npm run build
 
 🌐 相关截图
 ## 截图预览
+
 ![在线预览](https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-10-21/8325769117827104.png)
 ![在线预览](https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-10-21/8325769132507168.png)
 ![在线预览](https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-10-21/8325769147187232.png)
