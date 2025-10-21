@@ -20,7 +20,7 @@
                 ref="text_2"
                 class="text_2"
                 letterSpacing="3"
-                text="实时告警面板"
+                text="火险等级预报"
               />
             </flex-component>
             <flex-component id="flex_5" ref="flex_5" class="flex_5">
@@ -37,20 +37,20 @@
                   ref="text_3"
                   class="text_3"
                   rowAlign="center"
-                  text="高温告警"
+                  text="气象因素"
                 />
                 <flex-component id="flex_7" ref="flex_7" class="flex_7">
                   <text-component
                     id="text_4"
                     ref="text_4"
                     class="text_4"
-                    text="12"
+                    text="85"
                   />
                   <text-component
                     id="text_5"
                     ref="text_5"
                     class="text_5"
-                    text="次"
+                    text="指数"
                   />
                 </flex-component>
               </flex-component>
@@ -67,20 +67,20 @@
                   ref="text_6"
                   class="text_6"
                   rowAlign="center"
-                  text="烟雾检测"
+                  text="可燃物条件"
                 />
                 <flex-component id="flex_9" ref="flex_9" class="flex_9">
                   <text-component
                     id="text_7"
                     ref="text_7"
                     class="text_7"
-                    text="8"
+                    text="72"
                   />
                   <text-component
                     id="text_8"
                     ref="text_8"
                     class="text_8"
-                    text="处"
+                    text="指数"
                   />
                 </flex-component>
               </flex-component>
@@ -97,20 +97,20 @@
                   ref="text_9"
                   class="text_9"
                   rowAlign="center"
-                  text="设备离线"
+                  text="人为活动"
                 />
                 <flex-component id="flex_11" ref="flex_11" class="flex_11">
                   <text-component
                     id="text_10"
                     ref="text_10"
                     class="text_10"
-                    text="3"
+                    text="58"
                   />
                   <text-component
                     id="text_11"
                     ref="text_11"
                     class="text_11"
-                    text="台"
+                    text="指数"
                   />
                 </flex-component>
               </flex-component>
@@ -123,7 +123,7 @@
                 ref="text_12"
                 class="text_12"
                 letterSpacing="3"
-                text="监测数据统计"
+                text="防火成效评估"
               />
             </flex-component>
             <normal-component id="normal_4" ref="normal_4" class="normal_4">
@@ -137,7 +137,7 @@
                 ref="text_13"
                 class="text_13"
                 letterSpacing="3"
-                text="设备状态监控"
+                text="应急物资优化"
               />
             </flex-component>
             <flex-component id="flex_14" ref="flex_14" class="flex_14">
@@ -154,13 +154,13 @@
                     id="text_14"
                     ref="text_14"
                     class="text_14"
-                    text="热成像监控"
+                    text="防火设备储备"
                   />
                   <text-component
                     id="text_15"
                     ref="text_15"
                     class="text_15"
-                    text="东区01号塔"
+                    text="储备充足度评估"
                   />
                 </flex-component>
                 <flex-component id="flex_17" ref="flex_17" class="flex_17">
@@ -168,7 +168,13 @@
                     id="text_16"
                     ref="text_16"
                     class="text_16"
-                    text="正常"
+                    text="92"
+                  />
+                  <text-component
+                    id="text_17"
+                    ref="text_17"
+                    class="text_17"
+                    text="%"
                   />
                 </flex-component>
               </flex-component>
@@ -182,24 +188,30 @@
                 />
                 <flex-component id="flex_19" ref="flex_19" class="flex_19">
                   <text-component
-                    id="text_17"
-                    ref="text_17"
-                    class="text_17"
-                    text="烟雾传感器"
-                  />
-                  <text-component
                     id="text_18"
                     ref="text_18"
                     class="text_18"
-                    text="西区03号点"
+                    text="应急物资分布"
                   />
-                </flex-component>
-                <flex-component id="flex_20" ref="flex_20" class="flex_20">
                   <text-component
                     id="text_19"
                     ref="text_19"
                     class="text_19"
-                    text="告警"
+                    text="布局合理性评分"
+                  />
+                </flex-component>
+                <flex-component id="flex_20" ref="flex_20" class="flex_20">
+                  <text-component
+                    id="text_20"
+                    ref="text_20"
+                    class="text_20"
+                    text="78"
+                  />
+                  <text-component
+                    id="text_21"
+                    ref="text_21"
+                    class="text_21"
+                    text="分"
                   />
                 </flex-component>
               </flex-component>
@@ -213,24 +225,30 @@
                 />
                 <flex-component id="flex_22" ref="flex_22" class="flex_22">
                   <text-component
-                    id="text_20"
-                    ref="text_20"
-                    class="text_20"
-                    text="气象监测站"
+                    id="text_22"
+                    ref="text_22"
+                    class="text_22"
+                    text="物资调配效率"
                   />
                   <text-component
-                    id="text_21"
-                    ref="text_21"
-                    class="text_21"
-                    text="南区02号站"
+                    id="text_23"
+                    ref="text_23"
+                    class="text_23"
+                    text="平均响应时间"
                   />
                 </flex-component>
                 <flex-component id="flex_23" ref="flex_23" class="flex_23">
                   <text-component
-                    id="text_22"
-                    ref="text_22"
-                    class="text_22"
-                    text="正常"
+                    id="text_24"
+                    ref="text_24"
+                    class="text_24"
+                    text="15"
+                  />
+                  <text-component
+                    id="text_25"
+                    ref="text_25"
+                    class="text_25"
+                    text="分钟"
                   />
                 </flex-component>
               </flex-component>
@@ -242,119 +260,146 @@
             <flex-component id="flex_26" ref="flex_26" class="flex_26">
               <flex-component id="flex_27" ref="flex_27" class="flex_27">
                 <text-component
-                  id="text_23"
-                  ref="text_23"
-                  class="text_23"
-                  text="23"
-                />
-                <text-component
-                  id="text_24"
-                  ref="text_24"
-                  class="text_24"
-                  text="次"
-                />
-              </flex-component>
-              <text-component
-                id="text_25"
-                ref="text_25"
-                class="text_25"
-                text="今日告警数"
-              />
-            </flex-component>
-            <flex-component id="flex_28" ref="flex_28" class="flex_28">
-              <flex-component id="flex_29" ref="flex_29" class="flex_29">
-                <text-component
                   id="text_26"
                   ref="text_26"
                   class="text_26"
-                  text="156"
+                  text="85.6"
                 />
                 <text-component
                   id="text_27"
                   ref="text_27"
                   class="text_27"
-                  text="台"
+                  text="分"
                 />
               </flex-component>
               <text-component
                 id="text_28"
                 ref="text_28"
                 class="text_28"
-                text="在线设备数"
+                text="综合防火指数"
               />
             </flex-component>
-            <flex-component id="flex_30" ref="flex_30" class="flex_30">
-              <flex-component id="flex_31" ref="flex_31" class="flex_31">
+            <flex-component id="flex_28" ref="flex_28" class="flex_28">
+              <flex-component id="flex_29" ref="flex_29" class="flex_29">
                 <text-component
                   id="text_29"
                   ref="text_29"
                   class="text_29"
-                  text="68"
+                  text="92.3"
                 />
                 <text-component
                   id="text_30"
                   ref="text_30"
                   class="text_30"
-                  text="人"
+                  text="%"
                 />
               </flex-component>
               <text-component
                 id="text_31"
                 ref="text_31"
                 class="text_31"
-                text="巡护人员数"
+                text="应急响应效率"
+              />
+            </flex-component>
+            <flex-component id="flex_30" ref="flex_30" class="flex_30">
+              <flex-component id="flex_31" ref="flex_31" class="flex_31">
+                <text-component
+                  id="text_32"
+                  ref="text_32"
+                  class="text_32"
+                  text="78.4"
+                />
+                <text-component
+                  id="text_33"
+                  ref="text_33"
+                  class="text_33"
+                  text="%"
+                />
+              </flex-component>
+              <text-component
+                id="text_34"
+                ref="text_34"
+                class="text_34"
+                text="资源利用率"
               />
             </flex-component>
             <flex-component id="flex_32" ref="flex_32" class="flex_32">
               <flex-component id="flex_33" ref="flex_33" class="flex_33">
                 <text-component
-                  id="text_32"
-                  ref="text_32"
-                  class="text_32"
-                  text="中等"
+                  id="text_35"
+                  ref="text_35"
+                  class="text_35"
+                  text="88.9"
+                />
+                <text-component
+                  id="text_36"
+                  ref="text_36"
+                  class="text_36"
+                  text="分"
                 />
               </flex-component>
               <text-component
-                id="text_33"
-                ref="text_33"
-                class="text_33"
-                text="当前火险等级"
+                id="text_37"
+                ref="text_37"
+                class="text_37"
+                text="生态健康度"
               />
             </flex-component>
           </flex-component>
-          <map-component
-            id="map_1"
-            class="map_1"
-            ref="map_1"
-            :mapAttribute="map1Mapattribute"
-            :baseLayer="map1BaseLayer"
+          <image-component
+            id="image_7"
+            ref="image_7"
+            class="image_7"
+            fit=""
+            src="8316696060231718.png"
           />
           <flex-component id="flex_34" ref="flex_34" class="flex_34">
+            <flex-component
+              id="flex_46"
+              ref="flex_46"
+              class="flex_46 cursors"
+              @click="flex46Click"
+            >
+              <text-component
+                id="text_38"
+                ref="text_38"
+                class="text_38"
+                rowAlign="center"
+                text="全景监测"
+              />
+            </flex-component>
+            <flex-component
+              id="flex_47"
+              ref="flex_47"
+              class="flex_47 cursors"
+              @click="flex47Click"
+            >
+              <text-component
+                id="text_39"
+                ref="text_39"
+                class="text_39"
+                rowAlign="center"
+                text="防火指挥"
+              />
+            </flex-component>
+            <flex-component
+              id="flex_48"
+              ref="flex_48"
+              class="flex_48 cursors"
+              @click="flex48Click"
+            >
+              <text-component
+                id="text_40"
+                ref="text_40"
+                class="text_40"
+                rowAlign="center"
+                text="资源管理"
+              />
+            </flex-component>
             <text-component
-              id="text_34"
-              ref="text_34"
-              class="text_34"
-              rowAlign="center"
-              text="全景监测"
-            />
-            <text-component
-              id="text_35"
-              ref="text_35"
-              class="text_35"
-              rowAlign="center"
-              text="防火指挥"
-            />
-            <text-component
-              id="text_36"
-              ref="text_36"
-              class="text_36"
-              rowAlign="center"
-              text="资源管理"
-            />
-            <text-component
-              id="text_37"
-              ref="text_37"
-              class="text_37"
+              id="text_41"
+              ref="text_41"
+              class="text_41"
               rowAlign="center"
               text="决策分析"
             />
@@ -364,58 +409,22 @@
           <normal-component id="normal_6" ref="normal_6" class="normal_6">
             <flex-component id="flex_36" ref="flex_36" class="flex_36">
               <text-component
-                id="text_38"
-                ref="text_38"
-                class="text_38"
+                id="text_42"
+                ref="text_42"
+                class="text_42"
                 letterSpacing="3"
-                text="气象数据"
+                text="生态效益分析"
               />
             </flex-component>
             <flex-component id="flex_37" ref="flex_37" class="flex_37">
               <flex-component id="flex_38" ref="flex_38" class="flex_38">
                 <flex-component id="flex_39" ref="flex_39" class="flex_39">
                   <text-component
-                    id="text_39"
-                    ref="text_39"
-                    class="text_39"
-                    letterSpacing="1"
-                    text="28.5"
-                  />
-                </flex-component>
-                <text-component
-                  id="text_40"
-                  ref="text_40"
-                  class="text_40"
-                  rowAlign="center"
-                  text="温度(℃)"
-                />
-              </flex-component>
-              <flex-component id="flex_40" ref="flex_40" class="flex_40">
-                <flex-component id="flex_41" ref="flex_41" class="flex_41">
-                  <text-component
-                    id="text_41"
-                    ref="text_41"
-                    class="text_41"
-                    letterSpacing="1"
-                    text="65"
-                  />
-                </flex-component>
-                <text-component
-                  id="text_42"
-                  ref="text_42"
-                  class="text_42"
-                  rowAlign="center"
-                  text="湿度(%)"
-                />
-              </flex-component>
-              <flex-component id="flex_42" ref="flex_42" class="flex_42">
-                <flex-component id="flex_43" ref="flex_43" class="flex_43">
-                  <text-component
                     id="text_43"
                     ref="text_43"
                     class="text_43"
                     letterSpacing="1"
-                    text="12"
+                    text="236"
                   />
                 </flex-component>
                 <text-component
@@ -423,7 +432,43 @@
                   ref="text_44"
                   class="text_44"
                   rowAlign="center"
-                  text="风速(km/h)"
+                  text="森林碳汇"
+                />
+              </flex-component>
+              <flex-component id="flex_40" ref="flex_40" class="flex_40">
+                <flex-component id="flex_41" ref="flex_41" class="flex_41">
+                  <text-component
+                    id="text_45"
+                    ref="text_45"
+                    class="text_45"
+                    letterSpacing="1"
+                    text="189"
+                  />
+                </flex-component>
+                <text-component
+                  id="text_46"
+                  ref="text_46"
+                  class="text_46"
+                  rowAlign="center"
+                  text="水源涵养"
+                />
+              </flex-component>
+              <flex-component id="flex_42" ref="flex_42" class="flex_42">
+                <flex-component id="flex_43" ref="flex_43" class="flex_43">
+                  <text-component
+                    id="text_47"
+                    ref="text_47"
+                    class="text_47"
+                    letterSpacing="1"
+                    text="342"
+                  />
+                </flex-component>
+                <text-component
+                  id="text_48"
+                  ref="text_48"
+                  class="text_48"
+                  rowAlign="center"
+                  text="生物多样性"
                 />
               </flex-component>
             </flex-component>
@@ -431,11 +476,11 @@
           <normal-component id="normal_7" ref="normal_7" class="normal_7">
             <flex-component id="flex_44" ref="flex_44" class="flex_44">
               <text-component
-                id="text_45"
-                ref="text_45"
-                class="text_45"
+                id="text_49"
+                ref="text_49"
+                class="text_49"
                 letterSpacing="3"
-                text="烟雾浓度趋势"
+                text="历史火情统计"
               />
             </flex-component>
             <normal-component id="normal_8" ref="normal_8" class="normal_8">
@@ -445,11 +490,11 @@
           <normal-component id="normal_9" ref="normal_9" class="normal_9">
             <flex-component id="flex_45" ref="flex_45" class="flex_45">
               <text-component
-                id="text_46"
-                ref="text_46"
-                class="text_46"
+                id="text_50"
+                ref="text_50"
+                class="text_50"
                 letterSpacing="3"
-                text="热源强度分布"
+                text="损失评估对比"
               />
             </flex-component>
             <normal-component id="normal_10" ref="normal_10" class="normal_10">
@@ -464,14 +509,14 @@
   </div>
 </template>
 <script>
-import mixin from "./PanoramicMonitoringDashboard";
-import mixinConfig from "./PanoramicMonitoringDashboardConfig";
+import mixin from "./DecisionAnalysisDashboard";
+import mixinConfig from "./DecisionAnalysisDashboardConfig";
 import Custom3 from "./customChartComponent/Custom3.vue";
 import Custom2 from "./customChartComponent/Custom2.vue";
 import Custom1 from "./customChartComponent/Custom1.vue";
 export default {
   mixins: [mixin, mixinConfig],
-  name: "PanoramicMonitoringDashboard",
+  name: "DecisionAnalysisDashboard",
   components: {
     Custom3,
     Custom2,
@@ -480,73 +525,36 @@ export default {
   data() {
     return {
       modelOption: {},
-      map1BaseLayer: {
-        terrainNoteUrl:
-          "http://t1.tianditu.gov.cn/cta_c/wmts?tk=03dd8495c94ffa92a3f1ffe4ed647be8",
-        vectorBaseLayerName: "vec",
-        terrainBaseUrl:
-          "http://t1.tianditu.gov.cn/ter_c/wmts?tk=03dd8495c94ffa92a3f1ffe4ed647be8",
-        vectorNoteLayerName: "cva",
-        imageBaseLayerName: "img",
-        imageNoteUrl:
-          "http://t1.tianditu.gov.cn/cia_c/wmts?tk=03dd8495c94ffa92a3f1ffe4ed647be8",
-        vectorBaseUrl:
-          "http://t1.tianditu.gov.cn/vec_c/wmts?tk=03dd8495c94ffa92a3f1ffe4ed647be8",
-        imageNoteLayerName: "cia",
-        terrainNoteLayerName: "cta",
-        imageBaseUrl:
-          "http://t1.tianditu.gov.cn/img_c/wmts?tk=03dd8495c94ffa92a3f1ffe4ed647be8",
-        terrainBaseLayerName: "ter",
-        vectorNoteUrl:
-          "http://t1.tianditu.gov.cn/cva_c/wmts?tk=03dd8495c94ffa92a3f1ffe4ed647be8",
-      },
-      map1Mapattribute: {
-        mapToggleAttr: {
-          bottom: 5,
-          show: true,
-          right: 1,
-        },
-        defaultZoom: 10,
-        maxZoom: 22,
-        baseLayerSource: "mapWorld",
-        toolBarAttr: {
-          area: true,
-          length: true,
-          draw: true,
-          right: 1,
-          fullscreen: true,
-          top: 5,
-          position: true,
-        },
-        zoomAttr: {
-          show: true,
-          right: 1,
-          top: 60,
-        },
-        minZoom: 2,
-        suffix: "",
-        showBaseLayer: true,
-        staticImgUrl: "",
-        scaleAttr: {
-          bottom: 3,
-          show: true,
-          left: 35,
-        },
-        baseLayerToken: "03dd8495c94ffa92a3f1ffe4ed647be8",
-        defaultCenterPoint: "114.300894,30.594360",
-        coordinateAttr: {
-          bottom: 5,
-          show: true,
-          left: 0,
-        },
-        projection: "EPSG:4490",
-      },
     };
   },
   created() {},
   watch: {},
   mounted() {},
-  methods: {},
+  methods: {
+    /**
+     * 当前页面跳转全景监测
+     */
+    flex46Click() {
+      // 当前页面跳转全景监测
+      this.$router.push({ name: "PanoramicMonitoringDashboard" });
+    },
+
+    /**
+     * 当前页面跳转防火指挥
+     */
+    flex47Click() {
+      // 当前页面跳转防火指挥
+      this.$router.push({ name: "FireCommandDashboard" });
+    },
+
+    /**
+     * 当前页面跳转资源管理
+     */
+    flex48Click() {
+      // 当前页面跳转资源管理
+      this.$router.push({ name: "ResourceManagementDashboard" });
+    },
+  },
 };
 </script>
 <style lang="less" scoped>
@@ -677,7 +685,7 @@ export default {
                 .text_4 {
                   font-size: 24px;
                   box-sizing: border-box;
-                  color: #ff6b6b;
+                  color: #5effe4;
                   display: flex;
                 }
                 .text_5 {
@@ -728,7 +736,7 @@ export default {
                 .text_7 {
                   font-size: 24px;
                   box-sizing: border-box;
-                  color: #ffa726;
+                  color: #ffde9b;
                   display: flex;
                 }
                 .text_8 {
@@ -779,7 +787,7 @@ export default {
                 .text_10 {
                   font-size: 24px;
                   box-sizing: border-box;
-                  color: #42a5f5;
+                  color: #7ac5ff;
                   display: flex;
                 }
                 .text_11 {
@@ -926,7 +934,14 @@ export default {
                 .text_16 {
                   font-size: 24px;
                   box-sizing: border-box;
-                  color: #39ad93;
+                  color: #68ffe0;
+                  display: flex;
+                }
+                .text_17 {
+                  margin: 0px 0px 0px 10px;
+                  box-sizing: border-box;
+                  font-size: 15px;
+                  color: #aeb5bb;
                   display: flex;
                 }
               }
@@ -956,7 +971,7 @@ export default {
                 box-sizing: border-box;
                 justify-content: space-around;
                 height: 100%;
-                .text_17 {
+                .text_18 {
                   padding: 0px 0px 3px 25px;
                   color: #ffffff;
                   background-image: url(https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-09-01/8316695911333926.png);
@@ -969,7 +984,7 @@ export default {
                   background-repeat: no-repeat;
                   height: 25px;
                 }
-                .text_18 {
+                .text_19 {
                   padding: 0px 0px 3px 25px;
                   margin: 5px 0px 0px 0px;
                   color: #aeb5bb;
@@ -988,10 +1003,17 @@ export default {
                 box-sizing: border-box;
                 justify-content: center;
                 height: 100%;
-                .text_19 {
+                .text_20 {
                   font-size: 24px;
                   box-sizing: border-box;
-                  color: #ffa726;
+                  color: #68ffe0;
+                  display: flex;
+                }
+                .text_21 {
+                  margin: 0px 0px 0px 10px;
+                  box-sizing: border-box;
+                  font-size: 15px;
+                  color: #aeb5bb;
                   display: flex;
                 }
               }
@@ -1021,7 +1043,7 @@ export default {
                 box-sizing: border-box;
                 justify-content: space-around;
                 height: 100%;
-                .text_20 {
+                .text_22 {
                   padding: 0px 0px 3px 25px;
                   color: #ffffff;
                   background-image: url(https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-09-01/8316695911333926.png);
@@ -1034,7 +1056,7 @@ export default {
                   background-repeat: no-repeat;
                   height: 25px;
                 }
-                .text_21 {
+                .text_23 {
                   padding: 0px 0px 3px 25px;
                   margin: 5px 0px 0px 0px;
                   color: #aeb5bb;
@@ -1053,10 +1075,17 @@ export default {
                 box-sizing: border-box;
                 justify-content: center;
                 height: 100%;
-                .text_22 {
+                .text_24 {
                   font-size: 24px;
                   box-sizing: border-box;
-                  color: #39ad93;
+                  color: #68ffe0;
+                  display: flex;
+                }
+                .text_25 {
+                  margin: 0px 0px 0px 10px;
+                  box-sizing: border-box;
+                  font-size: 15px;
+                  color: #aeb5bb;
                   display: flex;
                 }
               }
@@ -1108,13 +1137,13 @@ export default {
               box-sizing: border-box;
               justify-content: flex-start;
               height: 30px;
-              .text_23 {
+              .text_26 {
                 font-size: 21px;
                 box-sizing: border-box;
-                color: #ff6b6b;
+                color: #68ffe0;
                 display: flex;
               }
-              .text_24 {
+              .text_27 {
                 margin: 0px 0px 0px 10px;
                 box-sizing: border-box;
                 font-size: 12px;
@@ -1122,7 +1151,7 @@ export default {
                 display: flex;
               }
             }
-            .text_25 {
+            .text_28 {
               font-size: 16px;
               box-sizing: border-box;
               color: #ffffff;
@@ -1153,13 +1182,13 @@ export default {
               box-sizing: border-box;
               justify-content: flex-start;
               height: 30px;
-              .text_26 {
+              .text_29 {
                 font-size: 21px;
                 box-sizing: border-box;
-                color: #39ad93;
+                color: #68ffe0;
                 display: flex;
               }
-              .text_27 {
+              .text_30 {
                 margin: 0px 0px 0px 10px;
                 box-sizing: border-box;
                 font-size: 12px;
@@ -1167,7 +1196,7 @@ export default {
                 display: flex;
               }
             }
-            .text_28 {
+            .text_31 {
               font-size: 16px;
               box-sizing: border-box;
               color: #ffffff;
@@ -1198,13 +1227,13 @@ export default {
               box-sizing: border-box;
               justify-content: flex-start;
               height: 30px;
-              .text_29 {
+              .text_32 {
                 font-size: 21px;
                 box-sizing: border-box;
-                color: #0ce7b6;
+                color: #68ffe0;
                 display: flex;
               }
-              .text_30 {
+              .text_33 {
                 margin: 0px 0px 0px 10px;
                 box-sizing: border-box;
                 font-size: 12px;
@@ -1212,7 +1241,7 @@ export default {
                 display: flex;
               }
             }
-            .text_31 {
+            .text_34 {
               font-size: 16px;
               box-sizing: border-box;
               color: #ffffff;
@@ -1243,14 +1272,21 @@ export default {
               box-sizing: border-box;
               justify-content: flex-start;
               height: 30px;
-              .text_32 {
+              .text_35 {
                 font-size: 21px;
                 box-sizing: border-box;
-                color: #ffa726;
+                color: #68ffe0;
+                display: flex;
+              }
+              .text_36 {
+                margin: 0px 0px 0px 10px;
+                box-sizing: border-box;
+                font-size: 12px;
+                color: #aeb5bb;
                 display: flex;
               }
             }
-            .text_33 {
+            .text_37 {
               font-size: 16px;
               box-sizing: border-box;
               color: #ffffff;
@@ -1258,10 +1294,12 @@ export default {
             }
           }
         }
-        .map_1 {
+        .image_7 {
+          top: 0px;
+          left: 0px;
+          flex: 1;
           width: 100%;
           box-sizing: border-box;
-          position: relative;
           height: 620px;
         }
         .flex_34 {
@@ -1274,52 +1312,82 @@ export default {
           box-sizing: border-box;
           justify-content: space-evenly;
           height: 120px;
-          .text_34 {
+          .flex_46 {
+            align-content: flex-start;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            align-items: flex-start;
+            flex-wrap: nowrap;
+            display: flex;
+            box-sizing: border-box;
+            justify-content: flex-start;
+            .text_38 {
+              cursor: pointer;
+              color: #ffffff;
+              background-image: url(https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-09-01/8316696680988710.png);
+              display: flex;
+              box-sizing: border-box;
+              width: 200px;
+              font-size: 17px;
+              background-size: 100% 100%;
+              background-position: center;
+              background-repeat: no-repeat;
+              font-weight: bolder;
+              height: 50px;
+            }
+          }
+          .flex_47 {
+            align-content: flex-start;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            align-items: flex-start;
+            flex-wrap: nowrap;
+            display: flex;
+            box-sizing: border-box;
+            justify-content: flex-start;
+            .text_39 {
+              cursor: pointer;
+              color: #ffffff;
+              background-image: url(https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-09-01/8316696680988710.png);
+              display: flex;
+              box-sizing: border-box;
+              width: 200px;
+              font-size: 17px;
+              background-size: 100% 100%;
+              background-position: center;
+              background-repeat: no-repeat;
+              font-weight: bolder;
+              height: 50px;
+            }
+          }
+          .flex_48 {
+            align-content: flex-start;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            align-items: flex-start;
+            flex-wrap: nowrap;
+            display: flex;
+            box-sizing: border-box;
+            justify-content: flex-start;
+            .text_40 {
+              cursor: pointer;
+              color: #ffffff;
+              background-image: url(https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-09-01/8316696680988710.png);
+              display: flex;
+              box-sizing: border-box;
+              width: 200px;
+              font-size: 17px;
+              background-size: 100% 100%;
+              background-position: center;
+              background-repeat: no-repeat;
+              font-weight: bolder;
+              height: 50px;
+            }
+          }
+          .text_41 {
             cursor: pointer;
             color: #ffffff;
             background-image: url(https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-09-01/8316697836519462.png);
-            display: flex;
-            box-sizing: border-box;
-            width: 200px;
-            font-size: 17px;
-            background-size: 100% 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            font-weight: bolder;
-            height: 50px;
-          }
-          .text_35 {
-            cursor: pointer;
-            color: #ffffff;
-            background-image: url(https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-09-01/8316696680988710.png);
-            display: flex;
-            box-sizing: border-box;
-            width: 200px;
-            font-size: 17px;
-            background-size: 100% 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            font-weight: bolder;
-            height: 50px;
-          }
-          .text_36 {
-            cursor: pointer;
-            color: #ffffff;
-            background-image: url(https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-09-01/8316696680988710.png);
-            display: flex;
-            box-sizing: border-box;
-            width: 200px;
-            font-size: 17px;
-            background-size: 100% 100%;
-            background-position: center;
-            background-repeat: no-repeat;
-            font-weight: bolder;
-            height: 50px;
-          }
-          .text_37 {
-            cursor: pointer;
-            color: #ffffff;
-            background-image: url(https://fmy-simple-test.oss-cn-wuhan-lr.aliyuncs.com/fmCloud/2025-09-01/8316696680988710.png);
             display: flex;
             box-sizing: border-box;
             width: 200px;
@@ -1357,7 +1425,7 @@ export default {
             background-repeat: no-repeat;
             justify-content: flex-start;
             height: 37px;
-            .text_38 {
+            .text_42 {
               padding: 0px 0px 0px 40px;
               color: #ffffff;
               display: flex;
@@ -1401,7 +1469,7 @@ export default {
                 background-position: center;
                 background-repeat: no-repeat;
                 height: 120px;
-                .text_39 {
+                .text_43 {
                   color: #ffffff;
                   display: flex;
                   box-sizing: border-box;
@@ -1410,7 +1478,7 @@ export default {
                   font-weight: bolder;
                 }
               }
-              .text_40 {
+              .text_44 {
                 border-left: 2px solid #31efe2;
                 background-color: #04483d;
                 color: #ffffff;
@@ -1449,7 +1517,7 @@ export default {
                 background-position: center;
                 background-repeat: no-repeat;
                 height: 120px;
-                .text_41 {
+                .text_45 {
                   color: #ffffff;
                   display: flex;
                   box-sizing: border-box;
@@ -1458,7 +1526,7 @@ export default {
                   font-weight: bolder;
                 }
               }
-              .text_42 {
+              .text_46 {
                 border-left: 2px solid #31efe2;
                 background-color: #04483d;
                 color: #ffffff;
@@ -1497,7 +1565,7 @@ export default {
                 background-position: center;
                 background-repeat: no-repeat;
                 height: 120px;
-                .text_43 {
+                .text_47 {
                   color: #ffffff;
                   display: flex;
                   box-sizing: border-box;
@@ -1506,7 +1574,7 @@ export default {
                   font-weight: bolder;
                 }
               }
-              .text_44 {
+              .text_48 {
                 border-left: 2px solid #31efe2;
                 background-color: #04483d;
                 color: #ffffff;
@@ -1538,7 +1606,7 @@ export default {
             background-repeat: no-repeat;
             justify-content: flex-start;
             height: 37px;
-            .text_45 {
+            .text_49 {
               padding: 0px 0px 0px 40px;
               color: #ffffff;
               display: flex;
@@ -1575,7 +1643,7 @@ export default {
             background-repeat: no-repeat;
             justify-content: flex-start;
             height: 37px;
-            .text_46 {
+            .text_50 {
               padding: 0px 0px 0px 40px;
               color: #ffffff;
               display: flex;

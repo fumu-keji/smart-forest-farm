@@ -12,7 +12,7 @@ export default defineConfig(mode => {
         strict: false // 禁用严格模式
       }
     },
-    base: "/c8BbjRLNb",
+    base: "/c8Bcm15TH",
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "src"),
